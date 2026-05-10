@@ -7,13 +7,13 @@ A production-ready full-stack Team Task Manager built with Node.js, Express, Mon
 Railway URL:
 
 ```text
-https://your-railway-app.up.railway.app
+https://team-task-manager-production-e25f.up.railway.app
 ```
 
 Health check:
 
 ```text
-https://your-railway-app.up.railway.app/api/health
+https://team-task-manager-production-e25f.up.railway.app/api/health
 ```
 
 Expected response:
@@ -374,28 +374,13 @@ docker run -p 3000:3000 --env-file .env team-task-manager
 
 ## Screenshots
 
-Place screenshots in the `screenshots/` folder.
-
-Suggested files:
-
-```text
-screenshots/login.png
-screenshots/dashboard-admin.png
-screenshots/dashboard-member.png
-screenshots/projects.png
-screenshots/kanban-board.png
-screenshots/task-list.png
-screenshots/members-search.png
-screenshots/settings.png
-```
-
-Example Markdown after adding images:
-
-```md
 ![Login](screenshots/login.png)
 ![Admin Dashboard](screenshots/dashboard-admin.png)
+![Member Dashboard](screenshots/dashboard-member.png)
+![Projects](screenshots/projects%20(1).png)
 ![Kanban Board](screenshots/kanban-board.png)
-```
+![Task List](screenshots/task-list.png)
+![Settings](screenshots/settings.png)
 
 ## Security Notes
 
